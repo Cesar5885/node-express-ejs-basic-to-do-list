@@ -24,12 +24,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // Items array to store the to-do list items.
-const items = ["Buy Food", "Cook Food", "Eat Food"];
+const items = ["Comprar comida", "Hacer tarea", "Hacer ejercicio", "Sacar a pasear al perro"];
 
 // Separate array to store work-related to-do items.
 const workItems = [];
 
-let userName = "pepito"
+let userName = "César Francisco Aragon Cornejo"
 
 // Define a route handler for the root route (homepage).
 app.get("/", function (req, res) {
